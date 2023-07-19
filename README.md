@@ -1,6 +1,6 @@
 **Full Adder in Qiskit**
 
-Implementation of an adder in qiskit to add two four bit numbers. It uses CNOT,Toffoli and Hadamard gates to obtain the quantum equivalent to a classical full adder.
+Implementation of an adder in qiskit to add two four bit numbers. It uses CNOT, Toffoli, and Hadamard gates to obtain the quantum equivalent to a classical full adder.
 
 **Circuit Construction**
 
@@ -50,11 +50,13 @@ Implementation of an adder in qiskit to add two four bit numbers. It uses CNOT,T
 
 
 
+**Entangling the first qubit of a and b registers**
 
 
+![image](https://github.com/niranjana9002/qiskit-full-adder/assets/69412412/672492b3-a50f-467c-8893-3e00acf93e51)
 
 
-
+Since the first qubits of a and b are entangled, we obtain this form on adding them, as the first qubit of b will be 1 when a, which is in a state of superposition is 1, and 0 otherwise.
 
 
 
